@@ -6,12 +6,14 @@ var cy=0;
 var cc=false;
 document.onmousemove=function(e) {
 	cx = event.clientX - cv.offsetLeft;
-    cy = event.clientY - cv.offsetTop-300;
+    	cy = event.clientY - cv.offsetTop-300;
     //console.log(cx,cy)
 }
 var ary=[]
 var ary2=[]
 function main(){
+	cx = event.clientX - cv.offsetLeft;
+    	cy = event.clientY - cv.offsetTop-300;
     ctx.clearRect(0, 0, cv.width, cv.height);
     //console.log([cx,cy],ary.length)
     ary2=[]
