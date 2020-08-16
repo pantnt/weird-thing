@@ -37,4 +37,4 @@ function main(){
     })
     ctx.stroke()
 }
-setInterval(main,1000/1000)
+setInterval(main,1000/120)
